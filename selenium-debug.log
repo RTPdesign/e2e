@@ -1,0 +1,50 @@
+18:07:15.513 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+18:07:15.514 INFO - Launching a standalone Selenium Server
+2017-07-19 18:07:15.546:INFO::main: Logging initialized @364ms to org.seleniumhq.jetty9.util.log.StdErrLog
+18:07:15.624 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+18:07:15.624 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+18:07:15.625 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:07:15.625 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+18:07:15.625 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:07:15.625 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-19 18:07:15.682:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-19 18:07:15.727:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3e6fa38a{/,null,AVAILABLE}
+2017-07-19 18:07:15.766:INFO:osjs.AbstractConnector:main: Started ServerConnector@42dafa95{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-19 18:07:15.767:INFO:osjs.Server:main: Started @585ms
+18:07:15.767 INFO - Selenium Server is up and running
+18:07:16.085 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+18:07:16.125 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Index, browserName=safari, javascriptEnabled=true, platform=ANY}]])
+18:07:16.152 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Index, browserName=safari, javascriptEnabled=true, platform=ANY}]
+18:07:17.413 INFO - Detected dialect: OSS
+18:07:17.438 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Index, browserName=safari, javascriptEnabled=true, platform=ANY}]]
+18:07:17.459 INFO - Executing: [get: http://localhost:3000])
+18:07:20.164 INFO - Done: [get: http://localhost:3000]
+18:07:20.174 INFO - Executing: [find elements: By.cssSelector: body])
+18:07:20.207 INFO - Done: [find elements: By.cssSelector: body]
+18:07:20.213 INFO - Executing: [is displayed: 0 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: body]])
+18:07:20.226 INFO - Done: [is displayed: 0 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: body]]
+18:07:20.235 INFO - Executing: [find element: By.cssSelector: #UserName-field])
+18:07:20.243 INFO - Done: [find element: By.cssSelector: #UserName-field]
+18:07:20.249 INFO - Executing: [send keys: 1 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #UserName-field], [a]])
+18:07:20.368 INFO - Done: [send keys: 1 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #UserName-field], [a]]
+18:07:21.380 INFO - Executing: [find element: By.cssSelector: #Password-field])
+18:07:21.388 INFO - Done: [find element: By.cssSelector: #Password-field]
+18:07:21.393 INFO - Executing: [send keys: 2 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #Password-field], [a]])
+18:07:21.544 INFO - Done: [send keys: 2 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #Password-field], [a]]
+18:07:22.555 INFO - Executing: [find element: By.cssSelector: #UserName-field])
+18:07:22.564 INFO - Done: [find element: By.cssSelector: #UserName-field]
+18:07:22.569 INFO - Executing: [get element attribute: 1 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #UserName-field], value])
+18:07:22.576 INFO - Done: [get element attribute: 1 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #UserName-field], value]
+18:07:22.583 INFO - Executing: [find element: By.cssSelector: #Password-field])
+18:07:22.591 INFO - Done: [find element: By.cssSelector: #Password-field]
+18:07:22.596 INFO - Executing: [get element attribute: 2 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #Password-field], value])
+18:07:22.602 INFO - Done: [get element attribute: 2 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #Password-field], value]
+18:07:22.608 INFO - Executing: [find element: By.cssSelector: #Login-button])
+18:07:22.617 INFO - Done: [find element: By.cssSelector: #Login-button]
+18:07:22.621 INFO - Executing: [click: 3 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #Login-button]])
+18:07:22.655 INFO - Done: [click: 3 [[SafariDriver: safari on MAC (F02CC4AB-5F6B-44ED-91F1-8AE5ECFC8072)] -> css selector: #Login-button]]
+18:07:25.664 INFO - Executing: [delete session: f0f0022d-dfc6-4829-860b-cb7dc797ac66])
+18:07:25.745 INFO - Done: [delete session: f0f0022d-dfc6-4829-860b-cb7dc797ac66]
